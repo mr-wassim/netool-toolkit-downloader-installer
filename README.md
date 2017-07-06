@@ -1,99 +1,110 @@
-# netool-toolkit-downloader-installer
+                                     # netool-toolkit-downloader-installer
 Operative Systems Suported are: Linux-ubuntu, kali-linux, backtack-linux (un-continued), freeBSD, Mac osx (un-continued)  Netool its a toolkit written using 'bash, python, ruby' that allows you to automate frameworks like Nmap, Driftnet, Sslstrip, Metasploit and Ettercap MitM attacks. this toolkit makes it easy tasks such as SNIFFING tcp/udp traffic, Man-In-The-Middle attacks, SSL-sniff, DNS-spoofing, D0S attacks in wan/lan networks, TCP/UDP packet manipulation using etter-filters, and gives you the ability to capture pictures of target webbrowser surfing (driftnet), also uses macchanger to decoy scans changing the mac address.  Rootsector module allows you to automate some attacks over DNS_SPOOF + MitM (phishing - social engineering) using metasploit, apache2 and ettercap frameworks. Like the generation of payloads, shellcode, backdoors delivered using dns_spoof and MitM method to redirect a target to your phishing webpage. recent as introducted the scanner inurlbr (by cleiton)
 ![1](https://a.fsdn.com/con/app/proj/netoolsh/screenshots/dfee.png/1)
-+--------------------------------------------------------------------+
-|                 netool.sh V4.6 (Stable repository)                 |
-|               develop by pedr0 Ubuntu [r00t-3xp10it]               |
-|                Suspicious Shell Activity Labs@2013                 |
-+--------------------------------------------------------------------+
-  This is the oficial repository (Stable) of netool.sh, were we can
- download the bug-free tested versions of the tool (oficial release). 
 
-![1](https://a.fsdn.com/con/app/proj/netoolsh/screenshots/pinnn.png/1)
-+--------------------------------------------------------------------+
-|                    Downloads available are                         |
-+--------------------------------------------------------------------+
-  netool.sh V4.6   [linux-ubuntu]    -> opensource.tar.gz
-  netool.sh V4.6   [linux-kali]      -> opensource[kali].tar.gz
-  netool.sh V3.0   [linux-backtrack] -> opensource[backtrack].tar.gz
+                                     # how to install netool-toolkit
+sudo git clone https://github.com/mr-wassim/netool-toolkit-downloader-installer.git
+sudo cd netool-toolkit-downloader-installer
+sudo chmod +x *.sh
+sudo ./downloader.sh
+                                             
+                                            # Dependencies
+                                    "TOOLKIT DEPENDENCIES"
+       zenity | Nmap | Ettercap | Macchanger |  Metasploit | Driftnet | Apache2 | sslstrip
 
-+--------------------------------------------------------------------+
-|                  The reazon why i did the tool                     |
-+--------------------------------------------------------------------+
- Iam a white hat, developer, pentester, blogger, so i dont like to harm
- people , if you take a closer look to my 'netool.sh' you will notest
- that allmost all attacks are performed inside Local Lan using (MITM). 
+                                     "SCANNER INURLBR.php"
+               curl | libcurl3 | libcurl3-dev | php5 | php5-cli | php5-curl
+   
+                                            # Features (modules)
+  "1-Show Local Connections"
+  "2-Nmap Scanner menu"
+        ->
+        Ping target
+        Show my Ip address
+        See/change mac address
+        change my PC hostname
+        Scan Local network 
+        Scan external lan for hosts
+        Scan a list of targets (list.txt)          
+        Scan remote host for vulns          
+        Execute Nmap command
+        Search for target geolocation
+        ping of dead (DoS)
+        Norse (cyber attacks map)
+        nmap Nse vuln modules
+        nmap Nse discovery modules
+        nmap stealth scan (evade IDS)
+        <-
+  "3-Retrieve metadata"
+        ->
+        retrieve metadata from target website
+        retrieve using a fake user-agent
+        retrieve only certain file types
+        <-
+  "4-open router config webpage"
+  "5-ip tracer whois"                           
+  "6-INURLBR.php (webcrawler)"
+        -> 
+        scanner inurlbr.php -> Advanced search with multiple engines, provided
+        analysis enables to exploit GET/POST capturing emails/urls & internal
+        custom validation for each target/url found. also the ability to use
+        external frameworks in conjuction with the scanner like nmap,sqlmap,etc
+        or simple the use of external scripts.
+        <-
+  "7-cupp.py password profiler"     
+  "8-r00tsect0r automated exploits (phishing - social engeneering)"
+        ->
+        package.deb backdoor [Binary linux trojan]
+        Backdooring EXE Files [Backdooring EXE Files]
+        fakeupdate.exe [dns-spoof phishing backdoor]
+        meterpreter powershell invocation payloads [by ReL1K]
+        Web_delivery (PSH/PYTHON) payloads
+        host a file attack [dns_spoof+mitm-hosted file]
+        clone website [dns-spoof phishing keylooger]
+        Java.jar phishing [dns-spoof+java.jar+phishing]
+        clone website [dns-spoof + java-applet]
+        clone website [browser_autopwn phishing Iframe]
+        Block network access [dns-spoof]
+        Samsung TV DoS [Plasma TV DoS attack]
+        RDP DoS attack [Dos attack against target RDP]
+        website D0S flood [Dos attack using syn packets]
+        firefox_xpi_bootstarpped_addon automated exploit
+        PDF backdoor [insert a payload into a PDF file]
+        Winrar backdoor (file spoofing)
+        VBScript injection [embedded a payload into a world document]
+        router phishing (capture router credentials over mitm)
+        Adobe_hacking_team  (adobe browser exploit)
+        ".::[ normal payloads ]::."
+        windows.exe payload
+        mac osx payload
+        linux payload
+        java signed applet [multi-operative systems]
+        android-meterpreter [android smartphone payload]
+        webshell.php [webshell.php backdoor]
+        generate shellcode [C,Perl,Ruby,Python,exe,war,vbs,Dll,js]
+        Session hijacking [cookie hijacking]
+        Shellter PE infector [build obfuscated backdoors]
+        start a lisenner [multi-handler]
+        <-
+  "9-Config ettercap"         
+  "10-Launch MitM"            
+  "11-Show URLs visited"       
+  "12-MITM + Dns-Spoofing"
+  "13-DoS attack [local lan]"      
+  "14-Compile etter.filters"
+  "15-Execute ettercap filter"   
+  "16-Share files [local lan]"      
+  "17-Sniff target browser pics"    
+  "18-Sniff SSL login passwords"
 
-
- "a whitehat as the rigth to do what it feel like inside is own
- local network to an intruder... offcourse people can use this tool
- to harm others on local lan (neighbor WIFI), or using it in a Fake-Ap
- (honeypot) but in the begining I did not have develop the tool for that"
-
- netool.sh [white hat] usage: local lan, pentesting lab
- netool.sh [black hat] usage: honeypot, cybercaffe, neighbor WIFI
-
-
- "netool.sh as original develop to show the power of ettercap framework
- and everything related to MITM attacks, also to show how scripting can
- automate things up", netool.sh tool provides a fast and easy way for
- new arrivals to security pentesting as also to experience users to use
- allmost all features that the Man-In-The-Middle can provide... 
-
-
-
-+--------------------------------------------------------------------+
-|                     Description of the tool                        |
-+--------------------------------------------------------------------+
- netool.sh is a script in bash to automate frameworks like metasploit,
- Nmap, Driftnet, SSLstrip, and Ettercap MITM attacks, Retrieves metadata,
- geo-location of target, as the hability to capture SSL passwords under
- MITM, sniff URL accessed by target machine, changes hostname, change IP
- and Mac-Address to decoy scans, capture pictures of web-browser surfing
- (diftnet), perform TCP/UDP packets manipulation using etter.filters,
- DoS attacks on local/external network, webcrawler.py [scan websites],
- admin page finder, uses the external script (cupp.py) to build a dicionary
- (common password profiler),also a collection of post exploitation modules
- (meterpreter auxiliary) develop by me, a collection of automated exploits
- [r00tsect0r automated exploits] module to have full control of target
- system, at last a module to perform (DNS-Spoof) using Ettercap...
-
-
-
-+--------------------------------------------------------------------+
-|                           Disclamer                                |
-+--------------------------------------------------------------------+ 
- The author is not held responsible for damages caused to third parties
- PC's or errors caused by the bad use of this script, This script was
- developed thinking in the OpenSource spirit, in which sharing c0d is
- not a crime! please respect the privacie of other people and use this
- tool the ethical way (on a pentesting lab or inside your local lan).
-
- If you have any suggestions, comments, bugs to report, questions
- or concerns about this script feel free to get in touch with me at:
- https://sourceforge.net/p/netoolsh/discussion/general/thread/928a3086/?limit=25#0214/cc81
-
-
-
-+--------------------------------------------------------------------+
-|                        Special Thanks to                           |
-+--------------------------------------------------------------------+
- h4x0r       :Apofis Kaizer [Debug on Mac OSx Systems]
- friend      :x0ra-machine  [for is Pentesting Lab]
- Developer   :Fyodor        [Nmap]
- Developer   :ALoR & NaGa   [Ettercap]
- Developer   :HD moore      [Metasploit]
- Developer   :Moxie M       [Sslstrip]
- Developer   :Chris L       [Driftnet]
- Developer   :j0rgan        [Cupp.py]
- Developer   :cleiton p     [inurlbr.php]
- Developer   :ReL1K         [unicorn.py]
- Developer   :KyRECON       [shellter]
-
-
-
-
-
-Enjoy and save Hacking ...
-Develop by pedr0 Ubuntu [r00t-3xp10it]
-Suspicious Shell Activity Labs@2013 | r00tsect0r redteam
+  d. delete lock folders
+  a. about netool
+  u. check for updates
+  c. config toolkit
+ db. access database
+  q. quit      
+                                 
+                                 
+                                  # some videos about 4.6 stable version
+                                  
+ ![1](https://www.youtube.com/watch?v=D_8vOPTO7A8)                                 
