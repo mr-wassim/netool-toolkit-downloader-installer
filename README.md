@@ -3,10 +3,10 @@ Operative Systems Suported are: Linux-ubuntu, kali-linux, backtack-linux (un-con
 ![1](https://a.fsdn.com/con/app/proj/netoolsh/screenshots/dfee.png/1)
 
                                      # how to install netool-toolkit
-sudo git clone https://github.com/mr-wassim/netool-toolkit-downloader-installer.git
-sudo cd netool-toolkit-downloader-installer
-sudo chmod +x *.sh
-sudo ./downloader.sh
+       sudo git clone https://github.com/mr-wassim/netool-toolkit-downloader-installer.git
+       sudo cd netool-toolkit-downloader-installer
+       sudo chmod +x *.sh
+       sudo ./downloader.sh
                                              
                                             # Dependencies
                                     "TOOLKIT DEPENDENCIES"
@@ -16,34 +16,34 @@ sudo ./downloader.sh
                curl | libcurl3 | libcurl3-dev | php5 | php5-cli | php5-curl
    
                                             # Features (modules)
-  "1-Show Local Connections"
-  "2-Nmap Scanner menu"
+      "1-Show Local Connections"
+      "2-Nmap Scanner menu"
         ->
-        Ping target
-        Show my Ip address
-        See/change mac address
-        change my PC hostname
-        Scan Local network 
-        Scan external lan for hosts
-        Scan a list of targets (list.txt)          
-        Scan remote host for vulns          
-        Execute Nmap command
-        Search for target geolocation
-        ping of dead (DoS)
-        Norse (cyber attacks map)
-        nmap Nse vuln modules
-        nmap Nse discovery modules
-        nmap stealth scan (evade IDS)
-        <-
-  "3-Retrieve metadata"
+            Ping target
+            Show my Ip address
+           See/change mac address
+            change my PC hostname
+            Scan Local network 
+            Scan external lan for hosts
+            Scan a list of targets (list.txt)          
+            Scan remote host for vulns          
+            Execute Nmap command
+            Search for target geolocation
+            ping of dead (DoS)
+            Norse (cyber attacks map)
+            nmap Nse vuln modules
+            nmap Nse discovery modules
+            nmap stealth scan (evade IDS)
+           <-
+      "3-Retrieve metadata"
         ->
         retrieve metadata from target website
         retrieve using a fake user-agent
         retrieve only certain file types
         <-
-  "4-open router config webpage"
-  "5-ip tracer whois"                           
-  "6-INURLBR.php (webcrawler)"
+      "4-open router config webpage"
+      "5-ip tracer whois"                           
+      "6-INURLBR.php (webcrawler)"
         -> 
         scanner inurlbr.php -> Advanced search with multiple engines, provided
         analysis enables to exploit GET/POST capturing emails/urls & internal
@@ -51,8 +51,8 @@ sudo ./downloader.sh
         external frameworks in conjuction with the scanner like nmap,sqlmap,etc
         or simple the use of external scripts.
         <-
-  "7-cupp.py password profiler"     
-  "8-r00tsect0r automated exploits (phishing - social engeneering)"
+       "7-cupp.py password profiler"     
+       "8-r00tsect0r automated exploits (phishing - social engeneering)"
         ->
         package.deb backdoor [Binary linux trojan]
         Backdooring EXE Files [Backdooring EXE Files]
@@ -86,25 +86,23 @@ sudo ./downloader.sh
         Shellter PE infector [build obfuscated backdoors]
         start a lisenner [multi-handler]
         <-
-  "9-Config ettercap"         
-  "10-Launch MitM"            
-  "11-Show URLs visited"       
-  "12-MITM + Dns-Spoofing"
-  "13-DoS attack [local lan]"      
-  "14-Compile etter.filters"
-  "15-Execute ettercap filter"   
-  "16-Share files [local lan]"      
-  "17-Sniff target browser pics"    
-  "18-Sniff SSL login passwords"
+      "9-Config ettercap"         
+      "10-Launch MitM"            
+      "11-Show URLs visited"       
+      "12-MITM + Dns-Spoofing"
+      "13-DoS attack [local lan]"      
+      "14-Compile etter.filters"
+      "15-Execute ettercap filter"   
+      "16-Share files [local lan]"      
+      "17-Sniff target browser pics"    
+      "18-Sniff SSL login passwords"
 
-  d. delete lock folders
-  a. about netool
-  u. check for updates
-  c. config toolkit
- db. access database
-  q. quit      
+      d. delete lock folders
+      a. about netool
+      u. check for updates
+      c. config toolkit
+      db. access database
+      q. quit      
                                  
                                  
-                                  # some videos about 4.6 stable version
-                                  
- ![1](https://www.youtube.com/watch?v=D_8vOPTO7A8)                                 
+                                  # some videos about 4.6 stable vers                                                                                                https://www.youtube.com/watch?v=D_8vOPTO7A8                                 
