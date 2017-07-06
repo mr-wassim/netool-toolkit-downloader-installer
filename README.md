@@ -105,4 +105,4 @@ Operative Systems Suported are: Linux-ubuntu, kali-linux, backtack-linux (un-con
       q. quit      
                                  
                                  
-                                  # some videos about 4.6 stable vers                                                                                                https://www.youtube.com/watch?v=D_8vOPTO7A8                                 
+                                                               
